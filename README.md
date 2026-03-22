@@ -191,10 +191,6 @@ At GPT-4o-mini rates (~$0.60/1M tokens), that's approximately **416,666,666,667 
 
 You better get burning.
 
-## Disclaimer
-
-This is a satirical project inspired by Jensen Huang's statement at GTC 2026. It is not financial advice. Please do not actually burn $250,000 worth of tokens to impress your manager. Or do. We're a CLI tool, not your financial advisor.
-
 ## License
 
 MIT — Because even compliance tools should be open source.
