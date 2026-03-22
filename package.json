@@ -1,0 +1,62 @@
+{
+  "name": "tokenburn",
+  "version": "1.0.0",
+  "description": "Enterprise-grade token quota compliance tool. Never let your boss catch you under-burning.",
+  "main": "dist/index.js",
+  "bin": {
+    "tokenburn": "dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "ai",
+    "tokens",
+    "nvidia",
+    "jensen-huang",
+    "compliance",
+    "burn",
+    "quota",
+    "satire",
+    "cli"
+  ],
+  "author": "Ordinath",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ordinath/tokenburn.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.80.0",
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "cli-progress": "^3.12.0",
+    "commander": "^14.0.3",
+    "figlet": "^1.11.0",
+    "openai": "^6.32.0",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.6",
+    "@types/figlet": "^1.7.0",
+    "@types/node": "^25.5.0",
+    "@vitest/coverage-v8": "^4.1.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
+  }
+}
